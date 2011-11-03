@@ -1,3 +1,9 @@
+# revision 17630
+# category Package
+# catalog-ctan /macros/latex/contrib/codedoc
+# catalog-date 2010-03-30 18:14:30 +0200
+# catalog-license lppl
+# catalog-version 0.3
 Name:		texlive-codedoc
 Version:	0.3
 Release:	1
@@ -47,6 +53,7 @@ execute it.
 %doc %{_texmfdistdir}/doc/latex/codedoc/CodeDoc-manual.pdf
 %doc %{_texmfdistdir}/doc/latex/codedoc/CodeDoc-manual.tex
 %doc %{_texmfdistdir}/doc/latex/codedoc/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ execute it.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
