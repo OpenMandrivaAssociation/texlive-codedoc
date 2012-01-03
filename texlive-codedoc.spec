@@ -6,7 +6,7 @@
 # catalog-version 0.3
 Name:		texlive-codedoc
 Version:	0.3
-Release:	1
+Release:	2
 Summary:	LaTeX code and documentation in LaTeX-format file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/codedoc
