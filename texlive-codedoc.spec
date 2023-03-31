@@ -1,6 +1,6 @@
 Name:		texlive-codedoc
 Version:	17630
-Release:	1
+Release:	2
 Summary:	LaTeX code and documentation in LaTeX-format file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/codedoc
