@@ -3,7 +3,7 @@ Version:	17630
 Release:	2
 Summary:	LaTeX code and documentation in LaTeX-format file
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/codedoc
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/codedoc
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/codedoc.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/codedoc.doc.r%{version}.tar.xz
